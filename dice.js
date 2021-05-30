@@ -6,22 +6,22 @@ function dicegame() {
     }
     let p1 = document.getElementById("p1");
     if (r1 == 1) {
-        p1.innerHTML = `<img src="/images/dice1.png" alt="">`;
+        p1.innerHTML = `<img src="dice1.png" alt="">`;
     }
     else if (r1 == 2) {
-        p1.innerHTML = `<img src="/images/dice2.png" alt="">`;
+        p1.innerHTML = `<img src="dice2.png" alt="">`;
     }
     else if (r1 == 3) {
-        p1.innerHTML = `<img src="/images/dice3.png" alt="">`;
+        p1.innerHTML = `<img src="dice3.png" alt="">`;
     }
     else if (r1 == 4) {
-        p1.innerHTML = `<img src="/images/dice4.png" alt="">`;
+        p1.innerHTML = `<img src="dice4.png" alt="">`;
     }
     else if (r1 == 5) {
-        p1.innerHTML = `<img src="/images/dice5.png" alt="">`;
+        p1.innerHTML = `<img src="dice5.png" alt="">`;
     }
     else if (r1 == 6) {
-        p1.innerHTML = `<img src="/images/dice6.png" alt="">`;
+        p1.innerHTML = `<img src="dice6.png" alt="">`;
     }
     let r2 = 6 * Math.random();
     r2 = Math.ceil(r2);
@@ -30,22 +30,22 @@ function dicegame() {
     }
     let p2 = document.getElementById("p2");
     if (r2 == 1) {
-        p2.innerHTML = `<img src="/images/dice1.png" alt="">`;
+        p2.innerHTML = `<img src="dice1.png" alt="">`;
     }
     else if (r2 == 2) {
-        p2.innerHTML = `<img src="/images/dice2.png" alt="">`;
+        p2.innerHTML = `<img src="dice2.png" alt="">`;
     }
     else if (r2 == 3) {
-        p2.innerHTML = `<img src="/images/dice3.png" alt="">`;
+        p2.innerHTML = `<img src="dice3.png" alt="">`;
     }
     else if (r2 == 4) {
-        p2.innerHTML = `<img src="/images/dice4.png" alt="">`;
+        p2.innerHTML = `<img src="dice4.png" alt="">`;
     }
     else if (r2 == 5) {
-        p2.innerHTML = `<img src="/images/dice5.png" alt="">`;
+        p2.innerHTML = `<img src="dice5.png" alt="">`;
     }
     else if (r2 == 6) {
-        p2.innerHTML = `<img src="/images/dice6.png" alt="">`;
+        p2.innerHTML = `<img src="dice6.png" alt="">`;
     }
     console.log(r1, " ", r2);
     let player1 = document.getElementById("player_name1");
