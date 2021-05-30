@@ -1,0 +1,22 @@
+@media screen and (max-width: 643px) {
+    nav button{
+        width: 30vw;
+        font-size: 25px;
+    }
+    nav button:hover {
+        width: 30vw;
+        font-size: 25px;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .body>div{
+        margin-top: 0px;
+    }
+    .body h1{
+        text-align: center;
+    }
+    #p1 img, #p2 img{
+        width: 50vw;
+    }
+}
